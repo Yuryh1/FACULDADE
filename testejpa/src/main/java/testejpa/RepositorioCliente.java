@@ -16,6 +16,17 @@ public class RepositorioCliente {
 		emf = Persistence.createEntityManagerFactory("minha-persistence-unit");
 		em = emf.createEntityManager();
 	}
+	
+	public Cliente obterPorId(int id) {
+		em.getTransaction().begin();
+		Cliente cliente = em.find(Cliente.class, id);
+		em.getTransaction().commit();
+		emf.close();
+		return cliente;
+		
+		
+		
+	}
             
 	public void salvar(Cliente c) {
 		em.getTransaction().begin();

@@ -1,15 +1,17 @@
 package testejpa;
 
+import java.util.List;
+
 public class Teste {
 
 	public static void main(String[] args) {
 		 
 		RepositorioCliente repositorioCliente = new RepositorioCliente();
-		Cliente cliente = new Cliente();
-		cliente.setNome("Hulk");
-		cliente.setIdade(35);
+		List<Cliente> clientes = repositorioCliente.listarTodos();
+		 
+		for (Cliente cliente : clientes) {
+			System.out.println(cliente.getNome());
+		}
 
-		repositorioCliente.salvar(cliente);
-	}
-
+}
 }
