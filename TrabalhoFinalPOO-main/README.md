@@ -9,11 +9,7 @@ Para ultilizar esse projeto, é recomendado que ultilize o Eclipse como IDE.
 
 📋 Pré-requisitos
 
-Um banco de dados Postgress, consulte o ScriptSQL para gerar a tabela.
-
-🛠️ Construído com
-
-Maven - Gerente de Dependências
+Um banco de dados Postgress, consulte o BD para gerar a tabela.
 
 Java Swing - GUI
 
