@@ -5,7 +5,7 @@ Projeto realizado em grupo, com o intuito de realizar um CRUD no banco de dados 
 
 🚀 Começando
 
-Para ultilizar esse projeto, é recomendado que ultilize o Intellij como IDE.
+Para ultilizar esse projeto, é recomendado que ultilize o Eclipse como IDE.
 
 📋 Pré-requisitos
 
